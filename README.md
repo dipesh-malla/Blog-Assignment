@@ -58,12 +58,12 @@ password: intuji
 ```
 ### 3. configure Application.yml
   Task 1 (BlogAPI)
-     ```
+    
        cd blog-api
       ./mvnw spring-boot:run
 
-     or you can choose the main file and run it using any IDE
-     ```
+       or you can choose the main file and run it using any IDE
+  
   Task 2 (Array-pair)
   ```
     cd array-pair-task
