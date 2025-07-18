@@ -1,0 +1,12 @@
+#spring.application.name=BlogAPI
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5444/intuji_db
+    driver-class-name: org.postgresql.Driver
+#    username:
+#    password:
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
